@@ -8,7 +8,7 @@
 #define MAX_ACCEL 7                                  //Max ACCEL
 #define MAX_THROTTLE 530                             //최대 스트롤 530
 #define MAX_STEERING 150                             //최대 조향
-#define MAX_TARGET_ANGLE 3                          //최대 목표 각도 12
+#define MAX_TARGET_ANGLE 3                          //최대 목표 각도 3
 #define I2C_SPEED 400000L                            //I2C통신속도
 #define Gyro_Gain 0.03048                            //자이로 게인
 #define Gyro_Scaled(x) Gyro_Gainx* Gyro_Gain                  //Gyro_Scaled * 자이로 게인
